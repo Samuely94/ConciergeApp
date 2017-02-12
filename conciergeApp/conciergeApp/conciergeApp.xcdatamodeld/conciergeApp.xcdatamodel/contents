@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Concierge" syncable="YES">
+        <attribute name="badgeNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GlobalSettings" syncable="YES">
+        <attribute name="autoCheckoutDelete" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="deleteMessagesAfter" optional="YES" attributeType="Integer 16" defaultValueString="3" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Concierge" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="GlobalSettings" positionX="-63" positionY="9" width="128" height="75"/>
+    </elements>
+</model>
